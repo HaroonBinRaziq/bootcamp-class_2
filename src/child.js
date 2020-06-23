@@ -37,7 +37,6 @@ function Child() {
         }
         return expense;
     }
-    
 
   return (
     <div className="container">

@@ -1,3 +1,6 @@
+body{
+  background: linear-gradient(to bottom right,rgb(0,0,0),rgb(109, 99, 99));
+}
 .container{
   max-width: 400px;
   min-height: 450px;
@@ -6,6 +9,8 @@
   box-shadow: 0 0 10px grey;
   margin-top: 50px;
   padding: 15px 50px;
+  background: linear-gradient(to bottom right,blue , green);
+  border-style: solid;
 }
 .text-center{
   text-align: center;
@@ -15,11 +20,15 @@
   justify-content: space-around;
   background-color: white;
   box-shadow: 0 0 10px gray;
+  background: linear-gradient(to bottom right,rgb(140, 185, 17) , rgb(226, 233, 129));
+  border-style: double;
 }
 .transaction-form input{
   width: 100%;
   margin: 10px 0;
   padding: 5px 5px;
+  background: radial-gradient(circle, rgb(38, 199, 159), rgb(151, 195, 206));
+  border-radius: 5px;
 }
 .transaction-list{
   margin: 0;
@@ -33,4 +42,5 @@
   background-color: white;
   margin: 5px 0;
   border-radius: 5px;
+  background: radial-gradient(circle, rgb(38, 199, 159), rgb(151, 195, 206));
 }
